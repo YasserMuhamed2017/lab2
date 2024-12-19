@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <form action="Thankyou.html" method="get">
+        <label for="firstname">First Name:</label>
+        <input type="text" placeholder="First Name" id="firstname" required><br><br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" placeholder="Last Name" id="lastname" required><br><br>
+        <label for="email">Email:</label>
+        <input type="text" placeholder="Email" id="email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Password" id="password"><br><br>
+        <label for="password">Password (again):</label>
+        <input type="password" placeholder="Password" id="password"><br><br>
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate"><br><br>
+        <label for="userpicture">User Picture:</label>
+        <input type="file" id="userpicture"><br><br>
+        <label for="gender">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" value="male" name="gender">
+        <label for="male">Female</label>
+        <input type="radio" value="female" name="gender"><br><br>
+        <label>Faculty:</label>
+        <select name="faculty">
+            <option value="Engineering">Faculty of Engineering</option>
+            <option value="Medicine">Faculty of Medicine</option>
+            <option value="Education">Faculty of Education</option>
+            <option value="languages">Faculty of languages</option>
+        </select><br><br>
+        <label>Interests:</label>
+        <label for="programming">Programming</label>
+        <input type="checkbox" id="programming" name="programming" value="programming">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="reading" name="reading" value="reading">
+        <label for="swimming">Swimming</label>
+        <input type="checkbox" id="swimming" name="swimming" value="swimming"><br><br>
+        <label for="aboutyou">About You:</label>
+        <textarea id="aboutyou" name="aboutyou" rows="4" cols="50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus quisquam eaque ipsam libero. Sequi sint ratione aut consectetur, asperiores adipisci quo odio nobis vitae nam beatae repellat deleniti autem amet!</textarea><br><br>
+        <label for="terms">I agreed to terms and conditions.</label>
+        <input type="checkbox" id="terms"><br><br>
+        <input type="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset">
+    </form>
+</body>
+</html>
